@@ -8,5 +8,5 @@ $CXXFLAGS += " -DRICE_VERSION=#{RICE_VERSION}"
 
 $srcs = ['ext/rice_playground.cpp']
 $VPATH << 'ext'
-create_makefile('slz')
+create_makefile('rice_playground')
 
