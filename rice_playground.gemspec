@@ -1,18 +1,17 @@
 # coding: utf-8
-#require './slz'
+#require './rice_playground'
 
 Gem::Specification.new do |spec|
-  spec.name          = "slz"
-  spec.version       = '0.0.0.1' #Slz::VERSION
+  spec.name          = "rice_playground"
+  spec.version       = '0.0.0.1'
   spec.authors       = ["cielavenir"]
   spec.email         = ["cielartisan@gmail.com"]
-  spec.description   = "slz"
-  spec.summary       = "slz"
-  spec.homepage      = "http://github.com/cielavenir/ruby-slz"
+  spec.description   = "rice_playground"
+  spec.summary       = "rice_playground"
+  spec.homepage      = "http://github.com/cielavenir/rice_playground"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files`.split($/) + [
-    *['ext/libslz/src/slz.c', 'ext/libslz/src/slz.h', 'ext/libslz/src/tables.h'],
     "LICENSE",
     "README.md",
     #"CHANGELOG.md",
@@ -23,7 +22,4 @@ Gem::Specification.new do |spec|
   spec.require_paths = ["lib"]
 
   spec.add_dependency "rice"
-  #spec.add_development_dependency "bundler", ">= 1.0"
-  #spec.add_development_dependency "rake"
-  spec.add_development_dependency "rspec"
 end
