@@ -1,4 +1,4 @@
-## rice_playground
+## rice\_playground
 
 a toy gem to test Rice or Ruby C-Ext.
 
